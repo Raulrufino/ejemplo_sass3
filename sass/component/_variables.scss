@@ -1,4 +1,36 @@
 /* **************************** */
 /* VARIABLES */
 /* **************************** */
+//tipografia
 
+/* font-family: 'Rouge Script', cursive; */
+
+$font-titulo: 'Rouge Script'; //titulos h1
+$font-parrafo: arial; //todos menos los titulos h1
+
+//tamaños tipograficos
+$font-size-base: 16px; //base 
+
+$font-size-titulo: 4rem; //64px
+$font-size-parrafoAlto: 1,125rem; //18px
+$font-size-parrafo: 1rem; //16px
+
+$font-size-despedida: 7,625rem; //122px
+$font-size-despedidaNombre: 6rem; //96px
+//tamaño corchete
+$font-size-llave: 24,563rem; //393px
+
+
+//colores//
+$color-rosa: #F24B6A;
+$color-rosaFlojo: #F5B6C2;
+$color-verdeFuerte: #022620;
+$color-verdeFlojo: #567073;
+$color-marronFlojo: #D9C6BA;
+$color-blanco: #FFFFFF;
+$color-grisFuerte: #838383;
+$color-grisFlojo: #C6C6C6;
+
+//fondo background//
+
+$fondoBackground:'../assets/img/desktop/background_Sass3.jpg';

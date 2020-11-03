@@ -18,6 +18,8 @@
     <!-- icono de acceso para IOS -->
     <link rel="apple-touch-icon" href="icon.png" />
     <!-- Recordar que favicon.ico tiene que estar en el directorio inicial -->
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Rouge+Script&display=swap" rel="stylesheet">
 
     <!-- links de estilos -->
     <link rel="stylesheet" href="css/style.css" />
@@ -26,25 +28,25 @@
   </head>
   <body>
     <div id="container">
-    <!-- *** ESTRUCTURA SEMÁNTICA *** -->
-    <!-- Header (encabezado de la página, zona superior) -->
-    <header>
-      <!-- nav (el navegador de toda la web) -->
-      <nav>
-        <a href="" class="link1">link1</a>
-        <a href="" class="link2">link2</a>
-        <a href="" class="link3">link3</a>
-        <a href="" class="link4">link4</a>
-      </nav>
-    </header>
-    <!-- Main (centro de la página, zona central) -->
-    <main>
-      <!-- section y article (posibilidades dentro de main) -->
+    <main class="main">
+      <h2 class="main_h2">La cesta de navidad 2020</h2>
+      <h4 class="main_h4">Suscribete y podres participar en el sorteo el dia 24 diciembre del 2020</h4>
+      <form action="adios.html" class="main_formulario">
+        <label for="nombre">Nombre</label>
+        <input type="text">
+        <label for="nombre">Email</label>
+        <input type="text">
+        <label for="nombre">Localidad</label>
+        <input type="text">
+        <h4 class="form_h4">¿Como has llegado aqui?</h4>
+        <input type="radio" name="redes" value="" checked> Redes sociales
+        <input type="radio" name="mail" value="" checked>e-mail
+        <input type="radio" name="otros" value="" checked>Otros
+      </form>
+
     </main>
     <!-- Footer (final de la página, zona inferior) -->
-    <footer>
-      <h6>&copy;Copyright</h6>
-    </footer>
+
     </div>
     <!-- *** Google Analytics *** -->
     <script src="https://www.google-analytics.com/analytics.js" async></script>
